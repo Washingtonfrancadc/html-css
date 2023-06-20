@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(59, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+main {
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    background-image: linear-gradient(to bottom, rgb(94, 94, 94), rgb(77, 77, 77));
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.712);
+}
+
+h2 {
+    
+}
+
+p{
+font-style: oblique; 
+text-decoration: underline;  
+}

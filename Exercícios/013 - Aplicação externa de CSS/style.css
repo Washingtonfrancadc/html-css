@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;    
+
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(236, 84, 84);
+    text-align: center;    
+
+}
+h2 {
+    color: rgb(172, 82, 255);
+    text-align: center;
+
+}
+p {
+    color: rgb(189, 255, 176);
+    text-align: center;
+
+}

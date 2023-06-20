@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGEM DINÁMICA E RESPOSIVIDADE</title>
+    <style>
+        body {background-color: rgba(0, 0, 0, 0.192);
+            text-align: center;
+            color: rgb(89, 178, 255);
+    </style>
+</head>
+<body>
+    <h1><MARK>IMAGEM DINÁMICA E RESPOSIVIDADE</MARK></h1>
+    <H2><mark style="background-color: rgb(255, 176, 176)
+;">imagem dinâmica= tag 'picture'; dentro da tag picture criar a tag 'source;media;type', a tag source de menor tamanho deve sempre vir antes.</mark></H2>
+    <picture>
+        <source media="(max-width: 725px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="Imagens/foto-m.png" type="image/png">
+        <source media="(max-width: 1925px)" srcset="Imagens/foto-g.png" type="image/png">
+        <img src="Imagens/foto-gg.png" alt="imagem flexível">
+    </picture>
+    <hr>
+    <h1><MARK>REPRODUZIR ÁUDIO</MARK>= tag 'audio', o parâmetro <mark style="background-color: red;">'CONTROLS'</mark> adiciona o botão de play;<br>existe tbm a tag <mark STYLE="background-color: red;">'LOOP'</mark></ pra repetir o áudio qnd ele terminar</h1>
+    
+    <audio src="midia/50 Cent - How We Do.mp3" controls loop></audio>
+    <hr>
+    <h1><mark>outra forma é adicionando a tag 'audio' e entre a abertura e fechamento da tag criar tag's 'source' e carregar os arquivos de cada tipo para evitar não compatibilidade de navegador </mark><br>
+    ficaria assim:
+        'source src="nome do arquivo e extensão" type="audio/extensão/mpeg" para arquivos em mp3
+        'source src="nome do arquivo e extensão" type="audio/extensão/ogg" para arquivos em ogg
+        'source src="nome do arquivo e extensão" type="audio/extensão/wav" para arquivos em wav:
+    </h1>
+    <audio controls>
+        <source src="midia/50 Cent - How We Do.wav" type="audio/wav" loop>
+        <source src="midia/50 Cent - How We Do.ogg" type="audio/ogg" loop>
+        <source src="midia/50 Cent - How We Do.mp3" type="audio/mpeg" loop>
+    </audio>
+    <hr>
+    <h1><mark>ADICIONAR VÍDEOS</mark></h1>
+    <ul>
+        <h2><li>Formatos: MP4 E M4V, OGV, E WEBM (qualidade ruim)</li></h2>
+        <h2><li>o 'autoplay' só está funcionando se o vídeo estiver mutado 'muted'</li></h2>
+        <h2><li>comando 'poster' escolhe a capa do vídeo</li></h2>
+        <h2><li>comando 'loop' deixa o vídeo em looping infinito</li></h2>
+        <h2><li>handbreake para 'mexer' nos vídeos</li></h2>
+    </ul>
+    <h1><mark style="background-color: red;">Adicionar vídeo localmente</mark></h1>
+    <video src="midia/video1.mp4 " width="" controls></video>
+    <h2>adicionando mais de 1 tipo de vídeo: abra a tag vídeo e dentro dela adicione vários 'sources' para cada tipo de extensão do arquivo <br>
+    assim: <br>
+<pre>       'vídeo
+                source src=:'nome do aruivo' type='vídeo/extensão do aqruivo'
+                source src=:'nome do aruivo' type='vídeo/extensão do aqruivo'
+                source src=:'nome do aruivo' type='vídeo/extensão do aqruivo'
+</v></pre></h2>
+<video controls>
+        <source src="midia/video1.mp4" type="video/mp4">
+        <source src="midia/video1.webm" type="video/webm">
+        <source src="midia/video1.mkv" type="video/mkv">
+</video>
+<hr>
+<h1><mark><big><big>ADICIONANDO VÍDEOS DE LINKS EXTERNOS:</big></big></mark></h1>
+<h2>vídeos do youtube: abra o vídeo q deseja compartilhar, e use a opção 'incorporar' do youtube, apenas copie e cole o código q o youtube irá fornecer.</h2>
+<h2><mark style="background-color: red;">OBS: se o vídeo que vc pretende compartilhar tiver bloqueios de direitos autorais aparecerá isso na tela</mark></h2>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/uzSme3PRhZ0" title="9. L7NNON - Perdição | HHR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h2><mark>vídeo sem direitos autorais usando o msm procedimento</mark></h2>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/7Vsb5kgaUPo" title="Musica para live stream/vídeo  - Sem Direitos Autorais - No copyright" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

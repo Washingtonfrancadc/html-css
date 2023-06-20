@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <main>
+        <h1>Adicionando fontes externas:</h1>
+        <h2>Baixe a fonte que deseja, após isso extraia a pasta, geralmente aparece 2 arquivos, um otf e outro ttf </h2>
+        <h2>Comando '@font-face': Este comando faz vc 'criar' a fonte dentro do seu código, e você pode dar o nome que deseja para esta fonte</h1>
+        <pre>
+            @font-face {
+            font-family: 'nome que deseja atribuir à fonte';
+            src: url('caminho e nome do arquivo baixado') format(formato da letra baixada)<mark>'1ª letra'</mark>, 
+            url('caminho e nome do arquivo baixado') format(formato da letra baixada)<mark>'2ª letra'</mark>.
+            }</pre>
+        <br>
+            <h1><mark>EXEMPLO:</mark></h1>
+            <pre>
+                
+                    <mark>@font-face {</mark>
+                    <mark>font-family: 'love';</mark>
+                    <mark>src: url('love larry.otf') format(opentype), url('fonts/love larry.ttf') format(truetype)</mark>
+                    <mark>}</mark>
+                </mark></pre>
+                <hr>
+        <h2>os formatos das letras podem ser:</h2>
+            <p><pre>
+            - opentype (otf)
+            - Truetype (ttf)
+            - Embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            </pre></p>
+    </main>
+
+    
+    
+</body>
+</html>
