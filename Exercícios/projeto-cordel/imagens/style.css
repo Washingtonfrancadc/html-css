@@ -78,6 +78,7 @@ pre {
     background-image: url('background001.jpg');
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -85,5 +86,6 @@ pre {
     background-image: url('background002.jpg');
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 
 }
