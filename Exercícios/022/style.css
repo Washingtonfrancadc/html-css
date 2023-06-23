@@ -2,23 +2,53 @@
 
 
 body {
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    padding: 15px;
+    background-color: black;
     background-image: url('https://images.alphacoders.com/598/598846.jpg');
     background-repeat: no-repeat;
-    background-size: 1400px;
+    background-size: cover;
+    background-attachment: fixed;
+    /*shorthand background: color > image > position > repeat > *size* > attachment*/
+    /* shorthand size ainda não está funcionando*/
+    /* background: black url('https://images.alphacoders.com/598/598846.jpg') no-repeat cover fixed; */
     
 }
 
 div#quadrado {
     
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
-    margin: 0px 20px 20px 0px;
     
 
+}
 
+h1 {
+    border: 8px solid red;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: bold;
+    max-width: 700px;
+}
+
+
+
+main p {
+    display: block;
+    color: white;
+    max-width: 300px;
+    margin: auto;
+    
+    
+    
 }
 
 div.q1 {
