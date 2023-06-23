@@ -55,6 +55,9 @@ section {
     
     color: white;
     box-shadow: inset 5px 5px 13px 10px rgba(0, 0, 0, 0.315);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     
 }
 
@@ -77,16 +80,12 @@ pre {
 
 #img1 {
     background-image: url('background001.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+    
 
 }
 
 #img2 {
     background-image: url('background002.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right center;
+    
 
 }
