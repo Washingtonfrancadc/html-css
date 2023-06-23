@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+html {
+    
+}
+body {
+    margin: 0;
+}
+header {
+    display: inline-block;
+    width: 100vw;
+    background-color: black;
+    color: white;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 10vw;
+    padding-top: 100px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+article pre {
+    padding-left: 20px;
+    font-size: 2.5vw;
+    max-width: 40vw;
+}
+
+.img2 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2023/01/20230107-naruto-jutsu-555x555.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+
+.img4 {
+    background-image: url('https://i.imgur.com/ILxdXW8.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+.imgci {
+    background-color: rgba(0, 0, 0, 0.493);
+    
+
+}
+
+main article p {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
