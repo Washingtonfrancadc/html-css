@@ -54,6 +54,7 @@ section {
 .img {
     
     color: white;
+    box-shadow: inset 5px 5px 13px 10px rgba(0, 0, 0, 0.315);
     
 }
 
@@ -78,7 +79,7 @@ pre {
     background-image: url('background001.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 
 }
 
@@ -86,6 +87,6 @@ pre {
     background-image: url('background002.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: right center;
 
 }
