@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: gray;
+        }
+        fieldset {
+            width: 300px;
+            border-radius: 5px;
+            margin: auto auto 15px auto;
+            border-color: black;
+            background-color: white;
+        }
+        legend {
+            font-family: cursive;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        div {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo a fazer formulários</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="Nome" id="inome" minlength="5" maxlength="20" required placeholder="Digite seu nome aqui">
+            </p>
+            <p>
+                <label for="itel">Nome</label>
+                <input type="text" name="tel" id="itel" minlength="5" maxlength="20" required placeholder="(xx)xxxxx-xxxx">
+            
+            </p>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+
+
+    </form>
+    
+</body>
+</html>

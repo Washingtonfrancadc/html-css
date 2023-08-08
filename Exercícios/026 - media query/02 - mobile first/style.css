@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+
+/* Mobile First*/
+
+/* Atalhos 
+.phone {display: none; }
+.tablet {display: none; }
+.pc {display: none; }
+.tv {display: none; }
+.print {display: none;}
+
+#phone {display: none; }
+#tablet {display: none; }
+#pc {display: none; }
+#tv {display: none; }
+#print {display: none; } */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.phone {display: block; margin: auto;}
+.tablet {display: none; margin: auto; }
+.pc {display: none; margin: auto; }
+.tv {display: none; margin: auto; }
+.print {display: none; margin: auto;}
+
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    margin: auto;
+    background: gray url(imagens/back-phone.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.87);
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 400px;
+}

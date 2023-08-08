@@ -43,8 +43,20 @@
     <p>table header = cabeçalho de tabela</p>
     <p>table data tag 'td'= dados de tabela</p>
     <p>alinhamento vertical = 'vertical-allign' top, middle ou bottom</p>
-    <p>Efeito zebrado pseudo-classe comando = ':nth-child(2n)' (2n=de 2 em 2,/ 3n=de 3 em 3...)</p>
+    <p>Efeito zebrado pseudo-classe comando = ':nth-child(2n)' (2n=de 2 em 2,/ 3n=de 3 em 3...) <br>
+    linha impar=odd, limpar par=even</p>
+    <h3>NOTA: código usado para aplicar em tabelas mas serve tbm para selecionar determinada linha da tabela para q sejam aplicadas qualquer configuração de estilo, como cor de fundo, tamanho da letra, decoração de teto...</h3>
+    
     <h3>OBS: table data fica dentro da table row</h3>
+    <h3>Efeito para colar cabeçalho no topo:</h3>
+    <p>comando : <pre>
+        thead > tr > th {
+        'position: sticky;
+        top: -1px;
+        Background-color: 'x'
+        }
+    </pre>
+    </p>
     <table>
         <tr>
             <th>minha primeira tabela</th>
